@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url("https://images3.alphacoders.com/118/1181423.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.DalgonaHeader{
+    color: #16db68;
+    text-align: center;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.DalgonaHeader h1
+{
+    border: 3px solid #16db68;
+    border-radius: 20px;
+    width: 700px;
+    height: 60px;
+    margin: auto;
+}
+
+.DalgonaNav{
+    border: 5px solid #ea4884;
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* NAV박스 위치 순서
+    1. 타이머
+    2. 시작인원 수
+    3. 생존인원 수
+*/
+.DalgonaNav .DalgonaNavTimer{
+    color: #16db68;
+    border-right: 5px solid #ea4884;
+    width: 200px;
+    text-align: center;
+}
+
+.DalgonaNav .DalgonaNavStartCount{
+    color: #16db68;
+    border-left: 5px solid #ea4884;
+    border-right: 5px solid #ea4884;
+    width: 200px;
+    text-align: center;
+}
+
+.DalgonaNav .DalgonaNavSurviveCount {
+    color: #16db68;
+    border-left: 5px solid #ea4884;
+    width: 200px;
+    text-align: center;
+}
+
+.DalgonaFrame{
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    height: 500px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.DalgonaFrame .DalgonaBox{
+    color: #16db68;
+    border: 5px solid #ea4884;
+    width: 700px;
+    height: 400px;
+    text-align: center;
+
+}
+
+.DalgonaFrame .DalgonaBox:hover{
+    color: #16db68;
+    background-color: bisque;
+}
+
+
+.DalgonaFrame .WebcamBox{
+    color: #16db68;
+    border: 5px solid #ea4884;
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+
+}
+
+.DalgonaFrame .WebcamBox img{
+    width: 700px;
+    height: 400px;
+}
+
+
+.DalgonaFrame .WebcamBox:hover{
+    color: #16db68;
+    background-color: bisque;
+}
+

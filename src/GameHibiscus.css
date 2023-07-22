@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url("https://images3.alphacoders.com/118/1181423.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.HibiscusHeader{
+    color: #16db68;
+    text-align: center;
+    height: 80px;
+}
+
+.HibiscusHeader h1
+{
+    border: 3px solid #16db68;
+    border-radius: 20px;
+    width: 700px;
+    height: 60px;
+    margin: auto;
+}
+
+
+/* 카메라 프레임 */
+.HibiscusFrame{
+    border: 5px solid #ea4884;
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    height: 600px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+/* 왼쪽 큰 웹캠 박스 */
+.HibiscusFrame .HibiscusWebcambox{
+    color: #16db68;
+    border: 5px solid #ea4884;
+    width: 1200px;
+    text-align: center;
+    display: flex;
+}
+
+.HibiscusFrame .HibiscusWebcambox img{
+    
+    width: 1200px;
+    height: 100%;
+}
+
+
+/* 오른쪽 작은 네브 박스 */
+.HibiscusFrame .HIbiscusNavbox{
+    width: 200px;
+    border: 5px solid #ea4884;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* NAV박스 위치 순서
+    1. 타이머
+    2. 시작인원 수
+    3. 생존인원 수
+*/
+.HibiscusFrame .HIbiscusNavbox .HibiscusNavTimer{
+    color: #16db68;
+    border-bottom: 5px solid #ea4884;
+    width:200px;
+    height: 200px;
+    text-align: center;
+}
+
+.HibiscusFrame .HIbiscusNavbox .HibiscusNavStartCount{
+    color: #16db68;
+    border-top: 5px solid #ea4884;
+    border-bottom: 5px solid #ea4884;
+    width:200px;
+    height: 200px;
+    text-align: center;
+}
+
+.HibiscusFrame .HIbiscusNavbox .HibiscusNavSurviveCount {
+    color: #16db68;
+    border-top: 5px solid #ea4884;
+    width:200px;
+    height: 200px;
+    text-align: center;
+} 
+
+
+
+/* 박스 호버 기능 */
+.HibiscusFrame .HibiscusWebcambox:hover{
+    color: #16db68;
+    background-color: #16db68;
+}
+
+.HibiscusFrame .HIbiscusNavbox .HibiscusNavTimer:hover{
+    color: #16db68;
+    background-color: #16db68;
+}
+
+.HibiscusFrame .HIbiscusNavbox .HibiscusNavStartCount:hover{
+    color: #16db68;
+    background-color: #16db68;
+}
+
+.HibiscusFrame .HIbiscusNavbox .HibiscusNavSurviveCount:hover{
+    color: #16db68;
+    background-color: #16db68;
+}
+
